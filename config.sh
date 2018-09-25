@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # the remote repository
-CFG_MAIN_REPOSITORY="git@github.com:PascalCoin/PascalCoin.git"
+CFG_MAIN_REPOSITORY="https://github.com/PascalCoin/PascalCoin.git"
 
 # the path to the checkout repository
 CFG_MAIN_CHECKOUT_PATH="${PWD}/checkout"

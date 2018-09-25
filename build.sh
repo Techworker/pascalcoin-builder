@@ -116,6 +116,9 @@ do
                 "wallet")
                     build_wallet "${COMMIT_PROJECT_BUILD_PATH}" "${BUILD_NAME}" "${BUILD_OPERATION_SYSTEM}" "${BUILD_CPU}" "${BUILD_OPTIMIZATION}" "${BUILD_MODE}" "${BUILD_OPENSSL_VERSION}"
                     ;;
+                "miner")
+                    build_miner "${COMMIT_PROJECT_BUILD_PATH}" "${BUILD_NAME}" "${BUILD_OPERATION_SYSTEM}" "${BUILD_CPU}" "${BUILD_OPTIMIZATION}" "${BUILD_MODE}" "${BUILD_OPENSSL_VERSION}"
+                    ;;
             esac
         done
 
